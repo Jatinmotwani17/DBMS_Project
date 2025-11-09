@@ -1,0 +1,35 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore database configuration (contains sensitive data)
+connect.php
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore backup files
+*.bak
+*.backup
+*.sql.backup
+
+# Ignore OS generated files
+ehthumbs.db
+Desktop.ini
+
+# Ignore any uploaded files (if added later)
+uploads/
+temp/
+
+# Ignore any cache directories
+cache/
+tmp/
